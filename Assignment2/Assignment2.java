@@ -6,17 +6,10 @@ class Assignment2{
        obj.numPlayers();
        
        seLinkList obj3 = new seLinkList();
-       
+
     }
 }
-class player
-{
-	public int numPlayers()
-	{
-		System.out.println("Print Task 2");
-		return 0;
-	}
-}
+
 class seLinkList
 {
 	seLinkList next; 
