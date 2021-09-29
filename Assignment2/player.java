@@ -33,15 +33,33 @@ public class player
 			tail = tmp;
 		}
 	}
+	public void findMaxWeight()
+	{
+		int maxWeight = 0;
+		seLinkList tmp = head;
+		seLinkList max = tmp;
+		for(int i =0;i<size;i++)
+		{
+		int k = tmp.a+tmp.b+tmp.c;
+		if(k>maxWeight)
+		{
+			maxWeight = k;
+			max = tmp;
+		}
+		tmp = tmp.next;
+		}
+		System.out.printf("Max weight player Node Index: %d a:%d b:%d c:%d Weight:%d",max.index,max.a,max.b,max.c, maxWeight);
+	}
 	public void initializeList()
 	{
-		System.out.println("Task8");
+		
 		 for(int i=0;i<size;i++)
 		 {
 			addPlayer();
 		    tail.a = myData[i].a;
 		    tail.b = myData[i].b;
 		    tail.c = myData[i].c;
+		    tail.index = i;
 		 }
 	}
 	
