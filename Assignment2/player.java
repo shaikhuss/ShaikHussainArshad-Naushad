@@ -1,12 +1,26 @@
 public class player
 {
+	public
+	seLinkList head = null;
+	player()
+	{
+		head = addPlayer();
+		
+	}
 	public int numPlayers()
 	{
-		System.out.println("Print Task 2");
+		
 	    PlayerData obj4 = new PlayerData();
 	    PlayerData[] myData;
 	    myData = obj4.getMyData();
-	    System.out.println("Print Task 4");
+	
 		return 0;
 	}
+	public seLinkList addPlayer()
+	{
+		seLinkList head = new seLinkList();
+		System.out.println("Print Task 7");
+		return head;
+	}
+	
 }
