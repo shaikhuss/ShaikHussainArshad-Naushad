@@ -38,33 +38,33 @@ public class player
 	public void removeNode(int index)
 	{
 		seLinkList tmp = head;
-	}
-		 System.out.println("\n Last Node Removed Task 12 Completed");
-		}
-		 tmp.next.prev = tmp.prev;
-		 tmp.prev.next = tmp.next;
-	 else {
-		
-
-		}
-			tail.next = null;
-			tail = tail.prev;
-		{
-		else if (tmp == tail)
-		}
-			head.prev= null;
-			head = head.next;
-		{
-		else if (tmp == head)
-		}
-			head = null;
-		{
-		if (tmp == tail && tmp == head)
-		
-		}
-			tmp = tmp.next;
-		{
 		while(index!=tmp.index)
+		{
+			tmp = tmp.next;
+		}
+		
+		if (tmp == tail && tmp == head)
+		{
+			head = null;
+		}
+		else if (tmp == head)
+		{
+			head = head.next;
+			head.prev= null;
+		}
+		else if (tmp == tail)
+		{
+			tail = tail.prev;
+			tail.next = null;
+		}
+
+		
+	 else {
+		 tmp.prev.next = tmp.next;
+		 tmp.next.prev = tmp.prev;
+		}
+		 //System.out.println("\n Last Node Removed Task 12 Completed");
+	}
 	public seLinkList findMaxWeight()
 	{
 		int maxWeight = 0;
