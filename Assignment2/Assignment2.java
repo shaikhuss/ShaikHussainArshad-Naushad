@@ -3,8 +3,6 @@ class Assignment2{
     {
      
        player obj = new player();
-       obj.numPlayers();
-    
     }
 }
 
