@@ -3,10 +3,10 @@ class Assignment2{
     {
      
        player obj = new player();
-       seLinkList max = obj.findMaxWeight();
-       seLinkList min = obj.findMinWeight();
-       System.out.printf("Max Weight is %d node", max.index);
-       System.out.printf("\nMin Weight is %d node", min.index);
+       seLinkList minmax[];
+       minmax = obj.findMinMaxWeight();
+       System.out.printf("Min Weight is %d th node & Max Weight is %d th node", minmax[0].index,minmax[1].index);
+      
     }
 }
 

@@ -77,6 +77,33 @@ public class player
 		}
 		return min;
 	}
+	
+	public seLinkList[] findMinMaxWeight()
+	{
+		
+		int minWeight = 99999;
+		int maxWeight = 0;
+		seLinkList tmp = head;
+		seLinkList min = tmp;
+		seLinkList max = tmp;
+		for(int i =0;i<size;i++)
+		{
+		int k = tmp.a+tmp.b+tmp.c;
+		
+		if(k<minWeight)
+		{
+			minWeight = k;
+			min = tmp;
+		}
+		if(k>maxWeight)
+		{
+			maxWeight = k;
+			max = tmp;
+		}
+		tmp = tmp.next;
+		}
+		return new seLinkList[]{min,max};
+	}
 	public void initializeList()
 	{
 		
