@@ -4,6 +4,7 @@ class Assignment2{
      
        player obj = new player();
        obj.findMaxWeight();
+       obj.removeNode(46);
     }
 }
 

@@ -18,6 +18,7 @@ public class player
 	    int num = myData.length;
 		return num;
 	}
+	
 	public void addPlayer()
 	{
 		seLinkList tmp;
@@ -33,6 +34,36 @@ public class player
 			tmp.prev =tail;
 			tail = tmp;
 		}
+	}
+	public void removeNode(int index)
+	{
+		seLinkList tmp = head;
+		while(index!=tmp.index)
+		{
+			tmp = tmp.next;
+		}
+		
+		if (tmp == tail && tmp == head)
+		{
+			head = null;
+		}
+		else if (tmp == head)
+		{
+			head = head.next;
+			head.prev= null;
+		}
+		else if (tmp == tail)
+		{
+			tail = tail.prev;
+			tail.next = null;
+		}
+
+		
+	 else {
+		 tmp.prev.next = tmp.next;
+		 tmp.next.prev = tmp.prev;
+		}
+		 System.out.println("\n Last Node Removed Task 12 Completed");
 	}
 	public void findMaxWeight()
 	{
