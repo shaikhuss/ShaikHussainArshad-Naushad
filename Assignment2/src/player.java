@@ -33,7 +33,7 @@ public class player
 			tail = tmp;
 		}
 	}
-	public void findMaxWeight()
+	public seLinkList findMaxWeight()
 	{
 		int maxWeight = 0;
 		seLinkList tmp = head;
@@ -48,7 +48,34 @@ public class player
 		}
 		tmp = tmp.next;
 		}
-		System.out.printf("Max weight player Node Index: %d a:%d b:%d c:%d Weight:%d",max.index,max.a,max.b,max.c, maxWeight);
+		return max;
+		//System.out.printf("Max weight player Node Index: %d a:%d b:%d c:%d Weight:%d",max.index,max.a,max.b,max.c, maxWeight);
+	}
+	
+	public seLinkList findMinWeight()
+	{
+		int minWeight = 99999;
+		if(size==0)
+		{
+			return null;	
+		}
+		else if(size<2)
+		{
+			return head;
+		}
+		seLinkList tmp = head;
+		seLinkList min = tmp;
+		for(int i =0;i<size;i++)
+		{
+		int k = tmp.a+tmp.b+tmp.c;
+		if(k<minWeight)
+		{
+			minWeight = k;
+			min = tmp;
+		}
+		tmp = tmp.next;
+		}
+		return min;
 	}
 	public void initializeList()
 	{
