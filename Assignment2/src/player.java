@@ -30,6 +30,7 @@ public class player
 		else {
 			tmp = new seLinkList();
 			tail.next = tmp;
+			tmp.prev =tail;
 			tail = tmp;
 		}
 	}

@@ -1,6 +1,7 @@
 public class seLinkList
 {
 	seLinkList next; 
+	seLinkList prev; 
 	int index;
 	int a;
 	int b;
@@ -14,7 +15,7 @@ public class seLinkList
 		b=0;
 		c=0;
         next = null;
-      
+        prev = null;
 	}
 	 
 }
