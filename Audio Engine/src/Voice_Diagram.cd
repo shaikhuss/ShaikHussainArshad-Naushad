@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Voice">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Voice::ID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Thread_Audio\Voice.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAEplAAAAAAgAAAABAgQAAAIAAiAANAAgg=</HashCode>
+      <FileName>Voice.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poBuff" />
+      <Field Name="poCallback" />
+      <Field Name="poSourceVoice" />
+      <Field Name="pWave" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Wave">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Wave::ID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Thread_Game\Wave.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Wave::Status" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Wave.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAApAIAAAAAgCAwAAEJWAAAAAAiAAIQAgA=</HashCode>
+      <FileName>Wave.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poWfx" />
+      <Field Name="poRawBuff" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PLScript" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Playlist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Playlist">
+    <Position X="1.5" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABAQAAAQAAAApgAAAAAAgAAAAEAgQAAAgAAmAAIAAgA=</HashCode>
+      <FileName>Playlist.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poScript" />
+      <Field Name="pVoice" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="XAUDIO2_BUFFER_ALIAS" Collapsed="true">
+    <Position X="7.75" Y="2.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>GAABBAQAAAAAAAIAABAAAAAAAAAAACCAAAAAAAAAAAA=</HashCode>
+      <FileName>Voice.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pAudioData" />
+    </ShowAsAssociation>
+  </Struct>
+  <Typedef Name="RawData" Collapsed="true">
+    <Position X="7.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wave.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WAVEFORMATEXTENSIBLE" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\mmreg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Interface Name="IXAudio2VoiceCallback" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAAQAAAIAAAAAAAAAAAAAEAAAAABAEAAAA=</HashCode>
+      <FileName>C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\xaudio2.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IXAudio2SourceVoice" Collapsed="true">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACACAAAAAAAAIACAkAAAAAAgQEIAAAAAAAAAA=</HashCode>
+      <FileName>C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\xaudio2.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SndMan_MLink" Collapsed="true">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SndMan.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poReserve" />
+      <Field Name="poActive" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SndMan">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="~SndMan" Hidden="true" />
+      <Method Name="DerivedCompare" Hidden="true" />
+      <Method Name="DerivedCreateNode" Hidden="true" />
+      <Method Name="DerivedDestroyNode" Hidden="true" />
+      <Method Name="DerivedDumpNode" Hidden="true" />
+      <Method Name="DerivedWash" Hidden="true" />
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="GetAudioInQueue" Hidden="true" />
+      <Method Name="GetGameInQueue" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="Quit" Hidden="true" />
+      <Method Name="SndMan" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EBIIAAAAgAAAQAABABABpAAAgABIAEBAAAA4AEAAAQA=</HashCode>
+      <FileName>SndMan.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poAudioInQueue" />
+      <Field Name="poGameInQueue" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Snd_Link" Collapsed="true">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Snd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snd">
+    <Position X="6" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIIAAADACQAhhAAACCAgCIhgBIgQABAoAIiACQACgA=</HashCode>
+      <FileName>Snd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeEventMan_MLink" Collapsed="true">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeEventMan.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poReserve" />
+      <Field Name="poActive" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TimeEventMan" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AB4IAAAAAAAAQAAAABAJpAAAAARIAEAAAAAwAEAAAQA=</HashCode>
+      <FileName>TimeEventMan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeEvent_Link" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeEvent">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <Members>
+      <Field Name="id" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TimeEvent::ID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TimeEvent.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAMAAAAAAAABgABAoAAgAAAEAACQAAAAAAgAAAAAkA=</HashCode>
+      <FileName>TimeEvent.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCommand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Command" Collapsed="true">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircularData">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAAAEAABCAAAAIACAAAAECAAACAAAACAAwAIAAAAA=</HashCode>
+      <FileName>CircularData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

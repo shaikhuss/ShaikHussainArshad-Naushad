@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VoiceMan_MLink" Collapsed="true">
+    <Position X="1.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VoiceMan.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="VoiceMan" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABIIAAAQAAAAAEAAABABpAAAAABIAEAAAAAyAEAAAAA=</HashCode>
+      <FileName>VoiceMan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Voice_Link" Collapsed="true">
+    <Position X="4.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Voice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Voice">
+    <Position X="4.25" Y="6.5" Width="1.5" />
+    <Members>
+      <Method Name="~Voice" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="GetId" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="privClear" Hidden="true" />
+      <Method Name="privGetStringName" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SetId" Hidden="true" />
+      <Method Name="Voice" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="Voice::ID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Thread_Audio\Voice.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAEplAAAAAAgAAAABAgQAAAIAAiAANAAgg=</HashCode>
+      <FileName>Voice.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poBuff" />
+      <Field Name="poSourceVoice" />
+      <Field Name="pWave" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WaveMan_MLink" Collapsed="true">
+    <Position X="9.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WaveMan.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WaveMan" Collapsed="true">
+    <Position X="9.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIIBAAAAAAAAIAAABABpAAAAABIAEAAAAAyAEAAAAA=</HashCode>
+      <FileName>WaveMan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wave_Link" Collapsed="true">
+    <Position X="7" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wave.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wave">
+    <Position X="7" Y="8.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Wave::ID">
+        <TypeIdentifier>
+          <NewMemberFileName>Thread_Game\Wave.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Wave::Status" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Wave.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAApAIAAAAAgCAwAAEJWAAAAAAiAAIQAgA=</HashCode>
+      <FileName>Wave.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poWfx" />
+      <Field Name="poRawBuff" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlaylistMan_MLink" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlaylistMan.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlaylistMan" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABIIAAAAAAAAAAAAABABpAAQAABIAEAAAAAyAkAAAAA=</HashCode>
+      <FileName>PlaylistMan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Playlist_Link" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Playlist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Playlist">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <Members>
+      <Method Name="~Playlist" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="GetId" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Playlist" Hidden="true" />
+      <Method Name="privClear" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SetId" Hidden="true" />
+      <Method Name="SndEnd" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABAQAAAQAAAApgAAAAAAgAAAAEAgQAAAgAAmAAIAAgA=</HashCode>
+      <FileName>Playlist.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pVoice" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ASndMan_MLink" Collapsed="true">
+    <Position X="1.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ASndMan.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ASndMan" Collapsed="true">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBIIEAAAAAAABAAAABAhpAAAAABIAFAAAAAyAEAAAAA=</HashCode>
+      <FileName>ASndMan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASnd_Link" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ASnd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASnd">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAgAASAAAApgAAAAAggCAAAAAgaAAAoAEiAAICAgA=</HashCode>
+      <FileName>ASnd.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pPlaylist" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="XAUDIO2_BUFFER_ALIAS" Collapsed="true">
+    <Position X="1.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAABBAQAAAAAAAIAABAAAAAAAAAAACCAAAAAAAAAAAA=</HashCode>
+      <FileName>Voice.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="RawData" Collapsed="true">
+    <Position X="9.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wave.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WAVEFORMATEXTENSIBLE" Collapsed="true">
+    <Position X="9.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\mmreg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Interface Name="IXAudio2SourceVoice" Collapsed="true">
+    <Position X="1.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACACAAAAAAAAIACAkAAAAAAgQEIAAAAAAAAAA=</HashCode>
+      <FileName>C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\xaudio2.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
