@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azul::ImageMan">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAgAAAAAAAAAABAAAAAAhAAEAAAAAgAggAACA=</HashCode>
+      <FileName>ImageMan.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pActive" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::Image">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Azul::Image::Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Image.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAABAAAAAAAAAAEAAAAABIAAAAgAEAAAAA=</HashCode>
+      <FileName>Image.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pText" />
+      <Field Name="imageRect" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::ImageLink" Collapsed="true">
+    <Position X="3" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgABiAAIAAAA=</HashCode>
+      <FileName>ImageLink.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::Texture" Collapsed="true">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAiAQAQAQAQAAAAABEEBCAAAIgAAABAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Azul::Rect" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAACCAAAAAAABgAABAAAA=</HashCode>
+      <FileName>Rect.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
