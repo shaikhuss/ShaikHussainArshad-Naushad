@@ -1,0 +1,12 @@
+﻿  WinEventHandler.cpp
+  WinOpenGLDevice.cpp
+  main.cpp
+  Matrix.cpp
+  Vect4D.cpp
+  Particle.cpp
+  ParticleEmitter.cpp
+  WinEventHandler.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  Generating code
+  Finished generating code
+  GameParticles.vcxproj -> D:\Old_Courses\keenan2020winter_csc461\student\sarshad3\GameParticles\Debug\GameParticles.exe
