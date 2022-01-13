@@ -1,7 +1,7 @@
 # ShaikHussainArshad-Naushad
 
 3D_Engine:
-A custom hybrid 2D&3D Graphics Engine from scratch with features like Lighting, Cameras, 
+A custom hybrid 2D&3D Graphics Engine using OpenGL from scratch with features like Lighting, Cameras, 
 Skinned Animations by using Compute Shaders for Rendering in GPU and using my own high-performance 
 Math, File, Iterator and Memory libraries
 
