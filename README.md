@@ -13,7 +13,7 @@ Designed a project-specific memory scheme to group and reduce memory allocations
 SIMD Instruction Set for faster Mathematical Operations and implemented the data structure Hot and Cold to help in cache hits (5X boost)
 
 Multithreaded Audio Engine
-Audio Engine with 28 threads
+Audio Engine with 28 threads working concurrently to provide maximum performance
 
 ZombieAI
 Programmed a survivor AI for a zombie survival game with the ability to aim, avoid enemies and navigate the map by implementing a "Hivemind" 
