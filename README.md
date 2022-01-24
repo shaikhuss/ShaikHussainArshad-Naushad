@@ -11,9 +11,14 @@ Math, File, Iterator and Memory libraries
 3D_Graphics_API:
 A custom Graphics package using DirectX with features like Cameras, 3D Models, Texture Shading, Lighting, Fog and Environment Mapping 
 
+![API](https://user-images.githubusercontent.com/73320479/150880373-b0d772ec-f3f2-40de-8438-291d11e9058c.png)
+
+
 Game Particles:
 Designed a project-specific memory scheme to group and reduce memory allocations of 15000 particles in a particle system, using the 
 SIMD Instruction Set for faster Mathematical Operations and implemented the data structure Hot and Cold to help in cache hits (5X boost)
+
+![Particles - Debug 1_24_2022 5_05_27 PM](https://user-images.githubusercontent.com/73320479/150880438-6a80a45a-11ee-4488-8513-97b39c432e9e.png)
 
 Multithreaded Audio Engine:
 Audio Engine with 28 threads working concurrently to provide maximum performance
