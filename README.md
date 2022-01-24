@@ -27,5 +27,10 @@ ZombieAI:
 Programmed a survivor AI for a zombie survival game with the ability to aim, avoid enemies and navigate the map by implementing a "Hivemind" 
 that evaluates the scene and assigns tasks to every AI agent based on the situation
 
+![Zombie](https://user-images.githubusercontent.com/73320479/150883036-261b8602-c029-45db-a357-f9d89e53697b.png)
+
 Networking_game:
 Developed a Real Time Networking and Multiplayer Game using Serialization and Data Driven Queues with its own prediction system to handle latencies of up to 35%
+
+![Omega Race 1_24_2022 5_39_34 PM (1)](https://user-images.githubusercontent.com/73320479/150883473-24cf5524-6173-4c78-ad47-4617a1c05b69.png)
+
